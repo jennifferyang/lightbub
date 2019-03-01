@@ -14,6 +14,7 @@ export class ListPage implements OnInit {
     'bluetooth',
     'build'
   ];
+<<<<<<< HEAD
    private icons = [
      'bulb', 
      'information',
@@ -28,6 +29,8 @@ export class ListPage implements OnInit {
   //   'bluetooth',
   //   'build'
    ];
+=======
+>>>>>>> parent of fe0c95f... Update list.page.ts
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
     for (let i = 1; i < 11; i++) {
@@ -36,6 +39,7 @@ export class ListPage implements OnInit {
         note: 'This is item #' + i,
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
+<<<<<<< HEAD
     this.items.push({
       title: 'Home',
       note: 'Your Lightbug Lives Here',
@@ -58,5 +62,7 @@ export class ListPage implements OnInit {
       //  icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       //}
       //);
+=======
+>>>>>>> parent of fe0c95f... Update list.page.ts
     }
   }
