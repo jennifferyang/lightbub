@@ -16,24 +16,9 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Badges',
-      url: '/badges',
-      icon: 'apps'
-    },
-    {
-      title: 'Rooms',
-      url: '/rooms',
-      icon: 'compass'
-    },
-    {
-      title: 'Energy Usage',
-      url: '/energy',
-      icon: 'stats'
-    },
-    {
-      title: 'Info',
-      url: '/info',
-      icon: 'information-circle-outline'
+      title: 'List',
+      url: '/list',
+      icon: 'list'
     }
   ];
 
