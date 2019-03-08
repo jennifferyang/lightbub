@@ -15,10 +15,7 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'info', loadChildren: './info/info.module#InfoPageModule' },
-  { path: 'badges', loadChildren: './badges/badges.module#BadgesPageModule' },
-  { path: 'energy', loadChildren: './energy/energy.module#EnergyPageModule' },
-  { path: 'rooms', loadChildren: './rooms/rooms.module#RoomsPageModule' }
+  { path: 'info', loadChildren: './info/info.module#InfoPageModule' }
 ];
 
 @NgModule({
