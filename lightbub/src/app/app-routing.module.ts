@@ -11,10 +11,10 @@ const routes: Routes = [
     path: 'home',
     loadChildren: './home/home.module#HomePageModule'
   },
-  {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
-  },
+  //{
+  //  path: 'list',
+  //loadChildren: './list/list.module#ListPageModule'
+  //},
   { path: 'info', loadChildren: './info/info.module#InfoPageModule' },
   { path: 'badges', loadChildren: './badges/badges.module#BadgesPageModule' },
   { path: 'energy', loadChildren: './energy/energy.module#EnergyPageModule' },
