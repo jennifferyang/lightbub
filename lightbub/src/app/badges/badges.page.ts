@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BadgesPage implements OnInit {
   declare
-  public image ='assets/icon/happy-on.png';
+  public image ='assets/icon/Badges (1).png';
     addEvent(){
-      if(this.image=='assets/icon/happy-on.png')
+      if(this.image=='assets/icon/Badges (1).png')
       {
         this.image='assets/icon/Lightbug - off.png';
       }else{
-      this.image ='assets/icon/happy-on.png';
+      this.image ='assets/icon/Badges (1).png';
       }
       
     }
