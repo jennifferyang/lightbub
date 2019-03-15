@@ -1,6 +1,8 @@
 {
   "name": "lightbub",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "66201bd8"
 }
