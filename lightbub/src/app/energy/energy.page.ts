@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnergyPage implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }

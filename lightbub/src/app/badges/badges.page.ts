@@ -11,7 +11,7 @@ export class BadgesPage implements OnInit {
     addEvent(){
       if(this.image=='assets/icon/Badges (1).png')
       {
-        this.image='assets/icon/Lightbug - off.png';
+        this.image='assets/icon/badgewin.jpg';
       }else{
       this.image ='assets/icon/Badges (1).png';
       }
